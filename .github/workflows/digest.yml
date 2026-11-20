@@ -1,0 +1,37 @@
+name: digest
+
+on:
+  schedule:
+    - cron: "23 15 * * *"   # 7:23am Pacific (8:23am during daylight saving time)
+  workflow_dispatch:
+
+concurrency:
+  group: job-radar-state
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Email queued matches
+        env:
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          SMTP_HOST: ${{ vars.SMTP_HOST }}
+          SMTP_PORT: ${{ vars.SMTP_PORT }}
+        run: python3 -m jobradar digest
+      - name: Save state
+        run: |
+          git config user.name "job-radar"
+          git config user.email "job-radar@users.noreply.github.com"
+          git add state
+          git diff --cached --quiet && exit 0
+          git commit -m "state: digest"
+          git pull --rebase
+          git push

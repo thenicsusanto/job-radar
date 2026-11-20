@@ -1,0 +1,124 @@
+# AI / robotics companies that are not in the YC lists.
+# One company per line. They get the "AI company" scoring bonus, and the weekly
+# discovery run tries to find their job board automatically.
+# Append "| large" for big companies (AI bonus, but no startup bonus).
+
+# Robotics / physical AI / autonomy
+Physical Intelligence
+Skild AI
+Figure
+1X Technologies
+Apptronik
+Agility Robotics
+Dexterity
+Covariant
+Field AI
+Generalist
+Dyna Robotics
+The Bot Company
+Sunday Robotics
+Collaborative Robotics
+Chef Robotics
+Carbon Robotics
+Machina Labs
+Bright Machines
+Formic
+Zipline
+Skydio
+Saronic
+Shield AI
+Anduril | large
+Applied Intuition
+Waabi
+Wayve
+Nuro
+Zoox | large
+Aurora | large
+Waymo | large
+Boston Dynamics | large
+Tesla | large
+Blue Origin | large
+Apex Space
+Perceptron
+
+# Labs and model companies
+Anthropic | large
+OpenAI | large
+xAI | large
+Mistral AI
+Cohere
+Perplexity
+Thinking Machines Lab
+Safe Superintelligence
+Reflection AI
+World Labs
+Liquid AI
+Essential AI
+Imbue
+Contextual AI
+Reka
+Sakana AI
+Black Forest Labs
+Ideogram
+Midjourney
+Runway
+Pika
+Luma AI
+Suno
+ElevenLabs
+Cartesia
+Hume AI
+Character.AI
+
+# AI infrastructure and data
+Scale AI | large
+Surge AI
+Mercor
+AfterQuery
+Turing
+Snorkel AI
+Labelbox
+Together AI
+Fireworks AI
+Baseten
+Modal
+Replicate
+Anyscale
+Lambda
+CoreWeave | large
+Crusoe
+Hugging Face
+Weights & Biases
+Pinecone
+Weaviate
+LangChain
+LlamaIndex
+Databricks | large
+Nvidia | large
+
+# Applied AI
+Cursor
+Anysphere
+Cognition
+Poolside
+Augment Code
+Magic
+Replit
+Lovable
+Harvey
+Glean
+Sierra
+Decagon
+Writer
+Abridge
+Ambience Healthcare
+OpenEvidence
+Hippocratic AI
+Deepgram
+AssemblyAI
+Vapi
+ConductorAI
+July AI
+Aemon
+C3 AI | large
+Palantir | large

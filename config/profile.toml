@@ -1,0 +1,103 @@
+# What counts as a good match. Edit freely; no code changes needed.
+# Patterns are case-insensitive regex fragments matched on whole words.
+
+[alerts]
+instant_threshold = 50      # score >= this: emailed within one polling cycle
+digest_threshold = 30       # score >= this: goes into the daily digest
+max_jobs_per_instant_email = 15
+
+# Community trackers (lagging, but cover Workday / custom career sites).
+[[trackers]]
+name = "simplify"
+url = "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json"
+
+[[trackers]]
+name = "vanshb03"
+url = "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/dev/.github/scripts/listings.json"
+
+# A posting must look like an internship (title or employment type).
+[internship]
+title_patterns = ["intern", "interns", "internship", "internships", "co-?op", "apprentice(ship)?", "student researcher", "research fellow(ship)?", "residency", "working student"]
+
+# Role groups, checked against the title. A job gets the points of its
+# best-matching group (groups do not stack).
+[[role_groups]]
+name = "robotics / physical AI / RL"
+points = 65
+title_patterns = [
+  "robot(s|ic|ics)?", "reinforcement learning", "rl", "embodied", "physical ai",
+  "autonom(y|ous)", "self[- ]driving", "perception", "sim(2|[- ]to[- ])real",
+  "manipulation", "locomotion", "motion planning", "slam", "world models?", "humanoid",
+  "drones?", "uav",
+]
+
+[[role_groups]]
+name = "AI / ML"
+points = 55
+title_patterns = [
+  "ai", "a\\.i\\.", "ml", "mle", "ai/ml", "ml/ai", "machine learning", "deep learning",
+  "artificial intelligence", "llms?", "nlp", "natural language", "computer vision", "vision",
+  "generative", "gen ?ai", "agents?", "agentic", "applied scientist", "research engineer(ing)?",
+  "research scientist", "member of technical staff", "mts", "model(s|ing)?", "inference",
+  "training", "evals?", "evaluation", "foundation models?", "multimodal", "speech",
+  "recommendation", "ranking", "search", "interpretability", "alignment", "neural",
+]
+
+[[role_groups]]
+name = "simulation / controls / planning"
+points = 35
+title_patterns = ["simulation", "controls?", "planning", "gnc", "guidance", "avionics"]
+
+[[role_groups]]
+name = "data science"
+points = 30
+title_patterns = ["data scien(ce|tist)", "applied science", "quant(itative)? research(er)?"]
+
+[[role_groups]]
+name = "software engineering"
+points = 15
+title_patterns = [
+  "software", "swe", "sde", "backend", "back[- ]end", "full[- ]?stack", "engineer(ing)?",
+  "developer", "forward deployed", "fde", "infrastructure", "platform", "systems?",
+  "embedded", "firmware", "technical staff", "programmer", "data engineer(ing)?",
+]
+
+# Points when no role group matches (e.g. a bare "Summer Intern" at an AI startup).
+[fallback]
+points = 10
+
+[company_bonus]
+ai_company = 20     # company is in the AI/robotics directory
+startup = 15        # company is a startup (YC-listed or hand-listed)
+
+# Extra signal from the job description, when the source provides one.
+[description_bonus]
+points_per_keyword = 3
+max_points = 12
+keywords = [
+  "pytorch", "reinforcement learning", "transformer", "deep learning", "machine learning",
+  "llm", "robot", "sim2real", "computer vision", "diffusion", "fine-tun", "rl environment",
+  "embodied", "c++", "cuda", "policy learning", "imitation learning",
+]
+
+[location]
+exclude_non_us = true
+preferred_bonus = 5
+preferred_patterns = ["seattle", "bellevue", "redmond", "kirkland", "remote", "san francisco", "bay area", "palo alto", "mountain view"]
+
+[exclude]
+# Always dropped, whatever else matches.
+title_patterns = [
+  "ph\\.?d", "doctoral", "graduate (intern|internship|student)", "master'?s", "postdoc(toral)?", "mba", "j\\.?d\\.?", "high school",
+  "marketing", "sales", "recruit(er|ing|ment)", "talent", "people", "human resources", "hr",
+  "legal", "counsel", "paralegal", "finance", "financial analyst", "accounting", "accountant", "tax", "audit",
+  "product manage(r|ment)", "program manage(r|ment)", "project manage(r|ment)", "product design(er)?",
+  "designer", "ux", "graphic", "communications", "content", "social media", "policy",
+  "customer (success|support|experience)", "account (executive|manager)", "partnerships",
+  "mechanical", "electrical", "civil", "chemical", "manufacturing", "technician", "supply chain",
+  "industrial", "facilit(y|ies)", "analytics?", "analyst", "product (intern|operator|owner|analyst|operations)", "automation (intern|specialist)", "clinical", "nurs(e|ing)", "pharmac(y|ist)", "wet lab", "biolog(y|ist)", "chemist(ry)?",
+]
+# Dropped only when the title has no AI/ML or robotics signal.
+soft_title_patterns = ["operations", "business", "hardware", "quality", "qa", "test", "it", "security", "strategy", "growth"]
+# Dropped when a tracker lists degree requirements and none of these appear.
+accepted_degrees = ["Bachelor's", "Undergraduate"]

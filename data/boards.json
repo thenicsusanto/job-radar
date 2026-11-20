@@ -144,10 +144,22 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "agave",
+  "company_name": "Agave",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "lever",
   "slug": "aofl",
   "company_name": "Age of Learning",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "agilityrobotics",
+  "company_name": "Agility Robotics",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -259,6 +271,12 @@
  },
  {
   "ats": "ashby",
+  "slug": "ambiencehealthcare",
+  "company_name": "Ambience Healthcare",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "ambrook",
   "company_name": "Ambrook",
   "discovered_via": "tracker:simplify"
@@ -312,6 +330,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "andromedasurgical",
+  "company_name": "Andromeda Surgical",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "andurilindustries",
   "company_name": "Anduril",
@@ -322,6 +346,12 @@
   "slug": "wfclainc",
   "company_name": "Angel City",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "anima",
+  "company_name": "Anima",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -342,6 +372,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "anthrogen",
+  "company_name": "Anthrogen",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "anthropic",
   "company_name": "Anthropic",
@@ -352,6 +388,12 @@
   "slug": "antora",
   "company_name": "Antora Energy",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "anyscale",
+  "company_name": "Anyscale",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -468,6 +510,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "arini",
+  "company_name": "Arini",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "armada",
   "company_name": "Armada",
@@ -484,6 +532,24 @@
   "slug": "artera",
   "company_name": "ArteraAI",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "artisan",
+  "company_name": "Artisan",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "assembly",
+  "company_name": "Assembly",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "assemblyai",
+  "company_name": "AssemblyAI",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -559,6 +625,12 @@
  },
  {
   "ats": "ashby",
+  "slug": "atomic",
+  "company_name": "Atomic",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "atomicsemi",
   "company_name": "Atomic Semi",
   "discovered_via": "tracker:simplify"
@@ -607,9 +679,27 @@
  },
  {
   "ats": "ashby",
+  "slug": "aurelian",
+  "company_name": "Aurelian",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "aurora-operations-inc",
   "company_name": "Aurora Innovation",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "authzed",
+  "company_name": "authzed",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "automat",
+  "company_name": "Automat",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -634,6 +724,12 @@
   "slug": "axiomaticai",
   "company_name": "Axiomatic AI",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "axle",
+  "company_name": "Axle",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -706,6 +802,12 @@
   "slug": "beaconsoftware",
   "company_name": "Beacon Software",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "beam",
+  "company_name": "Beam",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -781,6 +883,12 @@
  },
  {
   "ats": "ashby",
+  "slug": "black-forest-labs",
+  "company_name": "Black Forest Labs",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "blackbird-labs-inc",
   "company_name": "Blackbird Labs",
   "discovered_via": "tracker:simplify"
@@ -805,6 +913,18 @@
  },
  {
   "ats": "ashby",
+  "slug": "blee",
+  "company_name": "Blee",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "blissway",
+  "company_name": "Blissway",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "blockhouse",
   "company_name": "Blockhouse",
   "discovered_via": "tracker:simplify"
@@ -820,6 +940,12 @@
   "slug": "blp-digital",
   "company_name": "blp",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "lever",
+  "slug": "blue",
+  "company_name": "Blue",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -876,6 +1002,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "brainbaselabs",
+  "company_name": "Brainbase Labs",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "brave",
   "company_name": "Brave",
@@ -898,6 +1030,12 @@
   "slug": "breezeairways",
   "company_name": "Breeze Airways",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "brettonai",
+  "company_name": "Bretton AI",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -925,6 +1063,12 @@
  },
  {
   "ats": "ashby",
+  "slug": "brighterway",
+  "company_name": "Brighterway",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "brightstar-ai",
   "company_name": "Brightstar.AI",
   "discovered_via": "tracker:simplify"
@@ -934,6 +1078,12 @@
   "slug": "brooksrunning",
   "company_name": "Brooks Running",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "brumby",
+  "company_name": "Brumby",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -960,6 +1110,18 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "bunkerhillhealth",
+  "company_name": "Bunkerhill Health",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "burnt",
+  "company_name": "burnt",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "businessolverinvitationonly",
   "company_name": "Businessolver",
@@ -984,6 +1146,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "cambio",
+  "company_name": "Cambio",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "cambridgeconsultantslimited",
   "company_name": "Cambridge Consultants",
@@ -994,6 +1162,12 @@
   "slug": "cmt",
   "company_name": "Cambridge Mobile Telematics",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "campfire",
+  "company_name": "Campfire",
+  "discovered_via": "probe"
  },
  {
   "ats": "lever",
@@ -1008,16 +1182,40 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "capy",
+  "company_name": "Capy",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "carbon-robotics",
+  "company_name": "Carbon Robotics",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "cariadinc",
   "company_name": "CARIAD",
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "cartesia",
+  "company_name": "Cartesia",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "cartesiansystems",
   "company_name": "Cartesian",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "casca",
+  "company_name": "Casca",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -1080,6 +1278,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "charge-robotics",
+  "company_name": "Charge Robotics",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "charlesriveranalytics90",
   "company_name": "Charles River Analytics",
@@ -1092,10 +1296,22 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "greenhouse",
+  "slug": "checkr",
+  "company_name": "Checkr",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "ashby",
   "slug": "cheiron",
   "company_name": "Cheiron",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "chestnut",
+  "company_name": "Chestnut",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -1117,15 +1333,33 @@
  },
  {
   "ats": "ashby",
+  "slug": "cinder",
+  "company_name": "Cinder",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "circleback",
   "company_name": "Circleback",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "circuithub",
+  "company_name": "CircuitHub",
+  "discovered_via": "probe"
  },
  {
   "ats": "lever",
   "slug": "cirrus",
   "company_name": "Cirrus Logic",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "clarion",
+  "company_name": "Clarion",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -1194,6 +1428,18 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "codes-health",
+  "company_name": "Codes Health",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "cognition",
+  "company_name": "Cognition",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "cnssummerassociates",
   "company_name": "Cohen & Steers",
@@ -1228,6 +1474,12 @@
   "slug": "colonist",
   "company_name": "Colonist",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "commodityai",
+  "company_name": "CommodityAI",
+  "discovered_via": "probe"
  },
  {
   "ats": "lever",
@@ -1273,9 +1525,27 @@
  },
  {
   "ats": "ashby",
+  "slug": "concourse",
+  "company_name": "Concourse",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "conductorai",
   "company_name": "ConductorAI",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "conduit",
+  "company_name": "Conduit",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "confido",
+  "company_name": "Confido",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -1321,9 +1591,21 @@
  },
  {
   "ats": "greenhouse",
+  "slug": "coreweave",
+  "company_name": "CoreWeave",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "greenhouse",
   "slug": "cortland",
   "company_name": "Cortland",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "cosine",
+  "company_name": "Cosine",
+  "discovered_via": "probe"
  },
  {
   "ats": "lever",
@@ -1399,6 +1681,12 @@
  },
  {
   "ats": "ashby",
+  "slug": "cursor",
+  "company_name": "Cursor",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "cuspai",
   "company_name": "CuspAI",
   "discovered_via": "tracker:simplify"
@@ -1441,9 +1729,27 @@
  },
  {
   "ats": "greenhouse",
+  "slug": "databricks",
+  "company_name": "Databricks",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "greenhouse",
   "slug": "datacor",
   "company_name": "Datacor",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "datafold",
+  "company_name": "Datafold",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "dataleap",
+  "company_name": "Dataleap",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -1456,6 +1762,12 @@
   "slug": "decagon",
   "company_name": "Decagon",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "decodahealth",
+  "company_name": "Decoda Health",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -1474,6 +1786,12 @@
   "slug": "deeplocal",
   "company_name": "Deeplocal",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "deepnote",
+  "company_name": "Deepnote",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -1512,16 +1830,40 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "lever",
+  "slug": "dexterity",
+  "company_name": "Dexterity",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "didi",
   "company_name": "DiDi Global",
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "diligencesquared",
+  "company_name": "DiligenceSquared",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "diligent",
+  "company_name": "Diligent",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "diligentcorporation",
   "company_name": "Diligent Corporation",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "dispatch",
+  "company_name": "Dispatch",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -1570,6 +1912,12 @@
   "slug": "docugami",
   "company_name": "Docugami",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "dodo",
+  "company_name": "Dodo",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -1650,6 +1998,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "dyna-robotics",
+  "company_name": "Dyna Robotics",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "lever",
   "slug": "dynamiccatholic",
   "company_name": "Dynamic Catholic",
@@ -1710,6 +2064,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "elevenlabs",
+  "company_name": "ElevenLabs",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "lever",
   "slug": "evr",
   "company_name": "Elk Valley Resources",
@@ -1723,6 +2083,18 @@
  },
  {
   "ats": "ashby",
+  "slug": "ello",
+  "company_name": "Ello",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "eloquentai",
+  "company_name": "Eloquent AI",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "ema",
   "company_name": "Ema",
   "discovered_via": "tracker:simplify"
@@ -1732,6 +2104,12 @@
   "slug": "emergentlabsinc",
   "company_name": "Emergent Labs",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "encord",
+  "company_name": "Encord",
+  "discovered_via": "probe"
  },
  {
   "ats": "lever",
@@ -1840,6 +2218,18 @@
   "slug": "evrealty-us",
   "company_name": "EV Realty",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "event-horizon-labs",
+  "company_name": "Event Horizon Labs",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "eventual",
+  "company_name": "Eventual",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -1974,6 +2364,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "fieldguide",
+  "company_name": "Fieldguide",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "figma",
   "company_name": "Figma",
@@ -1990,6 +2386,18 @@
   "slug": "figureai",
   "company_name": "Figure",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "finto",
+  "company_name": "Finto",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "firecrawl",
+  "company_name": "Firecrawl",
+  "discovered_via": "probe"
  },
  {
   "ats": "lever",
@@ -2016,6 +2424,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "firstwork",
+  "company_name": "FirstWork",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "fiveringsllc",
   "company_name": "Five Rings Capital",
@@ -2038,6 +2452,12 @@
   "slug": "flagshippioneeringinc",
   "company_name": "Flagship Pioneering",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "fleetworks",
+  "company_name": "FleetWorks",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -2068,6 +2488,12 @@
   "slug": "fluxergy-2",
   "company_name": "Fluxergy",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "formic",
+  "company_name": "Formic",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -2146,6 +2572,12 @@
   "slug": "gallup",
   "company_name": "Gallup",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "garage",
+  "company_name": "Garage",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -2233,6 +2665,12 @@
  },
  {
   "ats": "ashby",
+  "slug": "generalist",
+  "company_name": "Generalist",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "genesis-molecular-ai",
   "company_name": "Genesis Molecular AI",
   "discovered_via": "tracker:simplify"
@@ -2292,6 +2730,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "gigs",
+  "company_name": "Gigs",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "gitai",
   "company_name": "GITAI",
@@ -2308,6 +2752,12 @@
   "slug": "glencoreuk",
   "company_name": "Glencore",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "glimpse",
+  "company_name": "Glimpse",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -2365,6 +2815,12 @@
  },
  {
   "ats": "ashby",
+  "slug": "govdash",
+  "company_name": "GovDash",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "GovSignals",
   "company_name": "GovSignals",
   "discovered_via": "tracker:simplify"
@@ -2418,6 +2874,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "greenboard",
+  "company_name": "Greenboard",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "lever",
   "slug": "greenlight",
   "company_name": "Greenlight",
@@ -2428,6 +2890,12 @@
   "slug": "greenworkssunriseglobalmarketing",
   "company_name": "Greenworks",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "greptile",
+  "company_name": "Greptile",
+  "discovered_via": "probe"
  },
  {
   "ats": "lever",
@@ -2479,6 +2947,12 @@
  },
  {
   "ats": "ashby",
+  "slug": "guild",
+  "company_name": "GUILD",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "Gumloop",
   "company_name": "Gumloop",
   "discovered_via": "tracker:simplify"
@@ -2500,6 +2974,12 @@
   "slug": "haizelabs",
   "company_name": "Haize Labs",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "lever",
+  "slug": "handoff",
+  "company_name": "Handoff",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -2545,6 +3025,12 @@
  },
  {
   "ats": "greenhouse",
+  "slug": "hazel",
+  "company_name": "Hazel",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "greenhouse",
   "slug": "headlandstechnologiesllc",
   "company_name": "Headlands Tech Holdings",
   "discovered_via": "tracker:simplify"
@@ -2554,6 +3040,12 @@
   "slug": "hearst",
   "company_name": "Hearst",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "hedge",
+  "company_name": "Hedge",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -2725,6 +3217,12 @@
  },
  {
   "ats": "ashby",
+  "slug": "humaans",
+  "company_name": "Humaans",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "human-computer-lab",
   "company_name": "Human Computer Lab",
   "discovered_via": "tracker:simplify"
@@ -2740,6 +3238,12 @@
   "slug": "humble-robotics",
   "company_name": "Humble Robotics",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "humeai",
+  "company_name": "Hume AI",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -2772,6 +3276,18 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "ideogram",
+  "company_name": "Ideogram",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "idler",
+  "company_name": "idler",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "industrialelectricmanufacturing",
   "company_name": "IEM",
@@ -2788,6 +3304,12 @@
   "slug": "iherb",
   "company_name": "iHerb",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "imbue",
+  "company_name": "Imbue",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -2836,6 +3358,18 @@
   "slug": "inizio",
   "company_name": "Inizio",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "inkeep",
+  "company_name": "Inkeep",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "innate",
+  "company_name": "Innate",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -2899,6 +3433,12 @@
  },
  {
   "ats": "ashby",
+  "slug": "interfere",
+  "company_name": "Interfere",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "interplay",
   "company_name": "Interplay",
   "discovered_via": "tracker:simplify"
@@ -2926,6 +3466,12 @@
   "slug": "inversionspace",
   "company_name": "Inversion Space",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "invert",
+  "company_name": "Invert",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -2980,6 +3526,18 @@
   "slug": "judihealth",
   "company_name": "Judi Health",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "juicebox",
+  "company_name": "Juicebox",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "julius",
+  "company_name": "Julius",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -3090,6 +3648,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "knowtex",
+  "company_name": "Knowtex",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "koddi",
   "company_name": "Koddi",
@@ -3157,6 +3721,18 @@
  },
  {
   "ats": "ashby",
+  "slug": "langchain",
+  "company_name": "LangChain",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "lapel",
+  "company_name": "Lapel",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "latent defense",
   "company_name": "Latent Defense",
   "discovered_via": "tracker:simplify"
@@ -3190,6 +3766,18 @@
   "slug": "legendcareers",
   "company_name": "Legend Biotech",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "legionhealth",
+  "company_name": "Legion Health",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "legora",
+  "company_name": "Legora",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -3282,6 +3870,36 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "liquid-ai",
+  "company_name": "Liquid AI",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "litellm",
+  "company_name": "LiteLLM",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "litmus",
+  "company_name": "Litmus",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "liveflow",
+  "company_name": "LiveFlow",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "llamaindex",
+  "company_name": "LlamaIndex",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "locusrobotics",
   "company_name": "Locus Robotics",
@@ -3318,10 +3936,28 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "lucis",
+  "company_name": "Lucis",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "lumaai",
+  "company_name": "Luma AI",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "lumbermens",
   "company_name": "Lumbermen's",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "luminal",
+  "company_name": "Luminal",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -3358,6 +3994,12 @@
   "slug": "MachinaLabs",
   "company_name": "Machina Labs",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "magic",
+  "company_name": "Magic",
+  "discovered_via": "probe"
  },
  {
   "ats": "lever",
@@ -3403,9 +4045,21 @@
  },
  {
   "ats": "ashby",
+  "slug": "mangodesk",
+  "company_name": "MangoDesk",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "Marathon Fusion",
   "company_name": "Marathon Fusion",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "marble",
+  "company_name": "Marble",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -3424,6 +4078,12 @@
   "slug": "mwinternshipprogram",
   "company_name": "Marshall Wace",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "lever",
+  "slug": "mashgin",
+  "company_name": "Mashgin",
+  "discovered_via": "probe"
  },
  {
   "ats": "lever",
@@ -3481,6 +4141,12 @@
  },
  {
   "ats": "greenhouse",
+  "slug": "maymobility",
+  "company_name": "May Mobility",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "greenhouse",
   "slug": "mcmastercarr",
   "company_name": "McMaster-Carr",
   "discovered_via": "tracker:simplify"
@@ -3508,6 +4174,12 @@
   "slug": "melotech",
   "company_name": "Melotech",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "mem0",
+  "company_name": "Mem0",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -3553,6 +4225,12 @@
  },
  {
   "ats": "ashby",
+  "slug": "metal",
+  "company_name": "Metal",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "metalenz",
   "company_name": "Metalenz",
   "discovered_via": "tracker:simplify"
@@ -3570,10 +4248,28 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "meticulous",
+  "company_name": "Meticulous",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "metoxinternationalinc",
   "company_name": "MetOx International",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "metriport",
+  "company_name": "Metriport",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "midjourney",
+  "company_name": "Midjourney",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -3625,6 +4321,12 @@
  },
  {
   "ats": "ashby",
+  "slug": "momentic",
+  "company_name": "Momentic",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "monogram",
   "company_name": "Monogram",
   "discovered_via": "tracker:simplify"
@@ -3664,6 +4366,12 @@
   "slug": "muonspace",
   "company_name": "Muon Space",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "mutiny",
+  "company_name": "Mutiny",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -3742,6 +4450,12 @@
   "slug": "netcraft",
   "company_name": "Netcraft",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "lever",
+  "slug": "netomi",
+  "company_name": "Netomi",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -3889,6 +4603,12 @@
  },
  {
   "ats": "ashby",
+  "slug": "nowadays",
+  "company_name": "Nowadays",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "nox-metals",
   "company_name": "NOX METALS",
   "discovered_via": "tracker:simplify"
@@ -3916,6 +4636,12 @@
   "slug": "NPX",
   "company_name": "Nuclear Promise X",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "nuro",
+  "company_name": "Nuro",
+  "discovered_via": "probe"
  },
  {
   "ats": "lever",
@@ -3964,6 +4690,12 @@
   "slug": "odysseyml",
   "company_name": "Odyssey",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "offdeal",
+  "company_name": "OffDeal",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -4026,10 +4758,22 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "onechronos",
+  "company_name": "OneChronos",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "oneethos",
   "company_name": "OneEthos",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "oneleet",
+  "company_name": "Oneleet",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -4039,15 +4783,33 @@
  },
  {
   "ats": "ashby",
+  "slug": "oneschema",
+  "company_name": "OneSchema",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "Ontic",
   "company_name": "Ontic",
   "discovered_via": "tracker:simplify"
  },
  {
   "ats": "ashby",
+  "slug": "openai",
+  "company_name": "OpenAI",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "openart",
   "company_name": "OpenArt AI",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "openevidence",
+  "company_name": "OpenEvidence",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -4105,6 +4867,12 @@
  },
  {
   "ats": "greenhouse",
+  "slug": "osmosis",
+  "company_name": "Osmosis",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "greenhouse",
   "slug": "otrcapital1",
   "company_name": "OTR Solutions",
   "discovered_via": "tracker:simplify"
@@ -4132,6 +4900,18 @@
   "slug": "output",
   "company_name": "Output Biosciences",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "outset",
+  "company_name": "Outset",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "overview",
+  "company_name": "Overview",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -4272,6 +5052,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "lever",
+  "slug": "people-ai",
+  "company_name": "People.ai",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "perscholashires",
   "company_name": "Per Scholas",
@@ -4288,6 +5074,12 @@
   "slug": "periodic-labs",
   "company_name": "Periodic Labs",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "permitflow",
+  "company_name": "PermitFlow",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -4324,6 +5116,12 @@
   "slug": "jobsatphamily",
   "company_name": "Phamily",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "pharos",
+  "company_name": "Pharos",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -4374,10 +5172,22 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "greenhouse",
+  "slug": "picnicai",
+  "company_name": "PicnicAI",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "ashby",
   "slug": "pika",
   "company_name": "Pika",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "pinecone",
+  "company_name": "Pinecone",
+  "discovered_via": "probe"
  },
  {
   "ats": "lever",
@@ -4459,15 +5269,39 @@
  },
  {
   "ats": "ashby",
+  "slug": "pointone",
+  "company_name": "PointOne",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "polymath",
   "company_name": "Polymath",
   "discovered_via": "tracker:simplify"
  },
  {
   "ats": "ashby",
+  "slug": "poolside",
+  "company_name": "Poolside",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "popl",
+  "company_name": "Popl",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "poshmark",
   "company_name": "Poshmark",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "lever",
+  "slug": "postera",
+  "company_name": "PostEra",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -4492,6 +5326,12 @@
   "slug": "pramaana-labs",
   "company_name": "Pramaana Labs",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "preload",
+  "company_name": "Preload",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -4524,10 +5364,34 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "probablygenetic",
+  "company_name": "Probably Genetic",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "prodigal",
+  "company_name": "Prodigal",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "profluent",
   "company_name": "Profluent",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "prolific",
+  "company_name": "Prolific",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "promise",
+  "company_name": "Promise",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -4639,6 +5503,12 @@
  },
  {
   "ats": "greenhouse",
+  "slug": "qventus",
+  "company_name": "Qventus",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "greenhouse",
   "slug": "racapitalmanagementllc",
   "company_name": "RA Capital Management",
   "discovered_via": "tracker:simplify"
@@ -4650,10 +5520,22 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "radar",
+  "company_name": "RADAR",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "radixuniversity",
   "company_name": "Radix Trading",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "raindrop",
+  "company_name": "Raindrop",
+  "discovered_via": "probe"
  },
  {
   "ats": "lever",
@@ -4692,6 +5574,18 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "reacher",
+  "company_name": "Reacher",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "ready",
+  "company_name": "Ready",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "readystate",
   "company_name": "Readystate Asset Management",
@@ -4716,6 +5610,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "reducto",
+  "company_name": "Reducto",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "redwoodmaterials",
   "company_name": "Redwood Materials",
@@ -4729,9 +5629,33 @@
  },
  {
   "ats": "ashby",
+  "slug": "reflectionai",
+  "company_name": "Reflection AI",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "reflex",
+  "company_name": "Reflex",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "reform",
+  "company_name": "Reform",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "regent",
   "company_name": "REGENT",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "reka",
+  "company_name": "Reka",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -4786,6 +5710,12 @@
   "slug": "replit",
   "company_name": "Replit",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "replo",
+  "company_name": "Replo",
+  "discovered_via": "probe"
  },
  {
   "ats": "lever",
@@ -4914,6 +5844,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "roboflow",
+  "company_name": "Roboflow",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "roboforce",
   "company_name": "RoboForce",
@@ -4936,6 +5872,12 @@
   "slug": "rocketlawyer",
   "company_name": "Rocket Lawyer",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "rollstack",
+  "company_name": "Rollstack",
+  "discovered_via": "probe"
  },
  {
   "ats": "lever",
@@ -4968,10 +5910,28 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "runway",
+  "company_name": "Runway",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "sage49",
   "company_name": "Sage",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "salespatriot",
+  "company_name": "SalesPatriot",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "salient",
+  "company_name": "Salient",
+  "discovered_via": "probe"
  },
  {
   "ats": "lever",
@@ -5088,6 +6048,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "greenhouse",
+  "slug": "sendbird",
+  "company_name": "Sendbird",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "ashby",
   "slug": "sentra",
   "company_name": "Sentra",
@@ -5110,6 +6076,12 @@
   "slug": "seqholdings",
   "company_name": "Sequence Holdings",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "serifhealth",
+  "company_name": "Serif Health",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -5178,6 +6150,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "shortstory",
+  "company_name": "Short Story",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "lever",
   "slug": "shyftlabs",
   "company_name": "ShyftLabs",
@@ -5194,6 +6172,12 @@
   "slug": "sieve",
   "company_name": "Sieve",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "sift",
+  "company_name": "Sift",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -5218,6 +6202,12 @@
   "slug": "SimbeRobotics",
   "company_name": "Simbe Robotics",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "simple-ai",
+  "company_name": "Simple AI",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -5268,10 +6258,28 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "lever",
+  "slug": "skyways",
+  "company_name": "Skyways",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "slope",
+  "company_name": "Slope",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "smartlyio",
   "company_name": "Smartly.io",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "snapmagic",
+  "company_name": "SnapMagic",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -5290,6 +6298,12 @@
   "slug": "socure",
   "company_name": "Socure",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "sola",
+  "company_name": "Sola",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -5359,6 +6373,12 @@
  },
  {
   "ats": "ashby",
+  "slug": "spade",
+  "company_name": "Spade",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "spaice-tech",
   "company_name": "SPAICE Technology",
   "discovered_via": "tracker:simplify"
@@ -5388,6 +6408,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "speak",
+  "company_name": "Speak",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "specterops",
   "company_name": "SpecterOps",
@@ -5400,10 +6426,28 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "spellbrush",
+  "company_name": "Spellbrush",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "sphere",
+  "company_name": "Sphere",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "lever",
   "slug": "spotify",
   "company_name": "Spotify",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "spur",
+  "company_name": "Spur",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -5484,6 +6528,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "suno",
+  "company_name": "Suno",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "lever",
   "slug": "sunsrce",
   "company_name": "SunSource",
@@ -5515,15 +6565,33 @@
  },
  {
   "ats": "ashby",
+  "slug": "surge-ai",
+  "company_name": "Surge AI",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "swarmaero",
   "company_name": "Swarm Aero",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "swayable",
+  "company_name": "Swayable",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
   "slug": "sweatpals",
   "company_name": "Sweatpals",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "sweep",
+  "company_name": "Sweep",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -5551,15 +6619,33 @@
  },
  {
   "ats": "ashby",
+  "slug": "taktile",
+  "company_name": "Taktile",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "Talos-Trading",
   "company_name": "Talos",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "tamarindbio",
+  "company_name": "Tamarind Bio",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
   "slug": "tanium",
   "company_name": "Tanium",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "tavus",
+  "company_name": "Tavus",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -5572,6 +6658,12 @@
   "slug": "technergetics",
   "company_name": "Technergetics",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "tekton-dynamics",
+  "company_name": "Tekton Dynamics",
+  "discovered_via": "probe"
  },
  {
   "ats": "lever",
@@ -5602,6 +6694,12 @@
   "slug": "tenon",
   "company_name": "Tenon",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "tenor",
+  "company_name": "Tenor",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -5638,6 +6736,12 @@
   "slug": "thealleninstitute",
   "company_name": "The Allen Institute for AI",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "thebotcompany",
+  "company_name": "The Bot Company",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -5710,6 +6814,18 @@
   "slug": "thea.energy",
   "company_name": "Thea Energy",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "thera",
+  "company_name": "Thera",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "thundercompute",
+  "company_name": "Thunder Compute",
+  "discovered_via": "probe"
  },
  {
   "ats": "lever",
@@ -5832,6 +6948,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "trm-labs",
+  "company_name": "TRM Labs",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "trueanomalyinc",
   "company_name": "True Anomaly",
@@ -5850,10 +6972,28 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "tsenta",
+  "company_name": "Tsenta",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "tubitv",
   "company_name": "Tubi",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "tuesday-labs",
+  "company_name": "Tuesday Labs",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "turing",
+  "company_name": "Turing",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -5866,6 +7006,12 @@
   "slug": "twitch",
   "company_name": "Twitch",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "lever",
+  "slug": "twodots",
+  "company_name": "Two Dots",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -5893,6 +7039,12 @@
  },
  {
   "ats": "ashby",
+  "slug": "ultra",
+  "company_name": "Ultra",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "unify",
   "company_name": "Unify",
   "discovered_via": "tracker:simplify"
@@ -5908,6 +7060,18 @@
   "slug": "uvimco",
   "company_name": "University of Virginia Investment Management Company (UVIMCO)",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "lever",
+  "slug": "unusual",
+  "company_name": "Unusual",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "uplane",
+  "company_name": "Uplane",
+  "discovered_via": "probe"
  },
  {
   "ats": "lever",
@@ -5929,6 +7093,12 @@
  },
  {
   "ats": "ashby",
+  "slug": "usul",
+  "company_name": "Usul",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "Valon",
   "company_name": "Valon",
   "discovered_via": "tracker:simplify"
@@ -5940,10 +7110,22 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "vapi",
+  "company_name": "Vapi",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "vardaspace",
   "company_name": "Varda Space",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "variance",
+  "company_name": "Variance",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -5956,6 +7138,12 @@
   "slug": "vaticlabs",
   "company_name": "Vatic Investments",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "vector",
+  "company_name": "Vector",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -5994,6 +7182,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "verahealth",
+  "company_name": "Vera Health",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "verainstituteofjustice",
   "company_name": "Vera Institute of Justice",
@@ -6004,6 +7198,18 @@
   "slug": "vercel",
   "company_name": "Vercel",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "lever",
+  "slug": "vergesense",
+  "company_name": "VergeSense",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "veritus",
+  "company_name": "Veritus",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -6090,6 +7296,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "voize",
+  "company_name": "voize",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "voloridgeinvestmentmanagement",
   "company_name": "Voloridge",
@@ -6138,6 +7350,18 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "greenhouse",
+  "slug": "waymo",
+  "company_name": "Waymo",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
+  "slug": "wayve",
+  "company_name": "Wayve",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "ashby",
   "slug": "wealth-com",
   "company_name": "Wealth.com",
@@ -6154,6 +7378,12 @@
   "slug": "weave",
   "company_name": "Weave",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "weaviate",
+  "company_name": "Weaviate",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",
@@ -6216,6 +7446,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "wonderly",
+  "company_name": "Wonderly",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "woolpert",
   "company_name": "Woolpert",
@@ -6240,6 +7476,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "worldlabs",
+  "company_name": "World Labs",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "worldsurfleague",
   "company_name": "World Surf League",
@@ -6256,6 +7498,12 @@
   "slug": "wppmedia",
   "company_name": "WPP Media",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "writer",
+  "company_name": "Writer",
+  "discovered_via": "probe"
  },
  {
   "ats": "greenhouse",
@@ -6331,9 +7579,21 @@
  },
  {
   "ats": "ashby",
+  "slug": "zeit-ai",
+  "company_name": "Zeit AI",
+  "discovered_via": "probe"
+ },
+ {
+  "ats": "ashby",
   "slug": "Zello",
   "company_name": "Zello",
   "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "zensors",
+  "company_name": "Zensors",
+  "discovered_via": "probe"
  },
  {
   "ats": "ashby",

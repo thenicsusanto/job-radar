@@ -15,7 +15,7 @@ from ..models import Board, JobPosting
 from .greenhouse import parse_timestamp
 
 API_URL = "https://api.ashbyhq.com/posting-api/job-board/{slug}"
-MAX_DESCRIPTION_CHARACTERS = 6000
+MAX_DESCRIPTION_CHARACTERS = 30000
 
 
 def parse_board_response(board: Board, payload: dict) -> list[JobPosting]:

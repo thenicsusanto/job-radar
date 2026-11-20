@@ -14,7 +14,7 @@ from ..http_client import fetch_json
 from ..models import Board, JobPosting
 
 API_URL = "https://api.lever.co/v0/postings/{slug}?mode=json"
-MAX_DESCRIPTION_CHARACTERS = 6000
+MAX_DESCRIPTION_CHARACTERS = 30000
 
 
 def parse_board_response(board: Board, payload: list) -> list[JobPosting]:

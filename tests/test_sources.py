@@ -40,6 +40,10 @@ class BoardParserTests(unittest.TestCase):
         self.assertEqual(posting.board_key, "greenhouse:acme")
         self.assertIsNotNone(posting.posted_at)
 
+    def test_greenhouse_description(self):
+        payload = {"content": "&lt;p&gt;Pursuing a &lt;b&gt;PhD&lt;/b&gt; in CS&lt;/p&gt;"}
+        self.assertEqual(greenhouse.description_from_detail(payload), "Pursuing a PhD in CS")
+
     def test_lever(self):
         board = Board("lever", "acme", "Acme")
         payload = [{"id": "abc", "text": "Software Engineer", "hostedUrl": "https://jobs.lever.co/acme/abc",

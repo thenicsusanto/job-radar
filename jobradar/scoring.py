@@ -35,6 +35,18 @@ NON_US_SIGNAL = re.compile(
     r"korea|seoul|singapore|australia|sydney|melbourne|brazil|mexico|uae|dubai|emea|apac|europe)\b",
     re.IGNORECASE,
 )
+GRADUATE_SIGNAL = re.compile(
+    r"ph\.?\s?d|doctoral|doctorate|master'?s|masters|graduate (student|degree|program|school)|"
+    r"grad student|post-?graduate|\bmba\b|(?<![a-z])graduate (machine|software|research|ai|ml|engineer|intern|summer|data)",
+    re.IGNORECASE,
+)
+GRADUATE_ABBREVIATION = re.compile(r"\bM\.?S\.?c?\b|\bM\.?Eng\b")  # case-sensitive on purpose
+UNDERGRADUATE_SIGNAL = re.compile(
+    r"bachelor|undergrad|sophomore|junior year|rising (junior|senior)|penultimate|"
+    r"all (degree )?levels|college student",
+    re.IGNORECASE,
+)
+UNDERGRADUATE_ABBREVIATION = re.compile(r"\bB\.?S\.?c?\b|\bB\.?A\b|\bB\.?Eng\b|\bBS/MS\b")
 YEAR = re.compile(r"\b(20\d\d)\b")
 SHORT_YEAR_RANGE = re.compile(r"\b(20\d\d)\s*[-/]\s*(\d\d)\b")
 
@@ -80,6 +92,16 @@ def is_outside_us(job: JobPosting) -> bool:
     return bool(NON_US_SIGNAL.search(location_text)) and not has_us_signal
 
 
+def degree_level_signals(text: str) -> tuple[bool, bool]:
+    """Returns (mentions a graduate degree, mentions undergraduates / a Bachelor's)."""
+    without_undergraduate_words = re.sub(r"undergraduate|undergrad", " ", text, flags=re.IGNORECASE)
+    mentions_graduate = bool(
+        GRADUATE_SIGNAL.search(without_undergraduate_words) or GRADUATE_ABBREVIATION.search(text)
+    )
+    mentions_undergraduate = bool(UNDERGRADUATE_SIGNAL.search(text) or UNDERGRADUATE_ABBREVIATION.search(text))
+    return mentions_graduate, mentions_undergraduate
+
+
 def score_job(job: JobPosting, profile: dict, company_directory: dict, today: date) -> ScoredJob:
     def excluded(reason: str) -> ScoredJob:
         return ScoredJob(job=job, score=0, reasons=[], excluded_because=reason)
@@ -94,6 +116,24 @@ def score_job(job: JobPosting, profile: dict, company_directory: dict, today: da
 
     if job.degrees and not set(job.degrees) & set(exclusion_rules["accepted_degrees"]):
         return excluded("requires a graduate degree")
+
+    listing_accepts_undergraduates = bool(set(job.degrees) & set(exclusion_rules["accepted_degrees"]))
+    description_mentions_graduate, description_mentions_undergraduate = degree_level_signals(
+        f"{job.title}\n{job.description}"
+    )
+    if (
+        exclusion_rules.get("drop_graduate_only_descriptions", True)
+        and description_mentions_graduate
+        and not description_mentions_undergraduate
+        and not listing_accepts_undergraduates
+    ):
+        return excluded("description asks for a Master's/PhD and never mentions undergraduates")
+    if (
+        matches_any(job.title, exclusion_rules.get("graduate_leaning_title_patterns", []))
+        and not listing_accepts_undergraduates
+        and not description_mentions_undergraduate
+    ):
+        return excluded("research/applied scientist title with no sign undergraduates qualify")
 
     location_rules = profile["location"]
     if location_rules["exclude_non_us"] and is_outside_us(job):

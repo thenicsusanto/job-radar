@@ -7,6 +7,8 @@ Docs:   https://developers.greenhouse.io/job-board.html
 
 from __future__ import annotations
 
+import html
+import re
 from datetime import datetime
 
 from ..boards import job_key
@@ -14,6 +16,9 @@ from ..http_client import fetch_json
 from ..models import Board, JobPosting
 
 API_URL = "https://boards-api.greenhouse.io/v1/boards/{slug}/jobs"
+JOB_DETAIL_URL = "https://boards-api.greenhouse.io/v1/boards/{slug}/jobs/{job_id}"
+HTML_TAG = re.compile(r"<[^>]+>")
+MAX_DESCRIPTION_CHARACTERS = 30000
 
 
 def parse_timestamp(iso_text: str | None) -> float | None:
@@ -48,3 +53,19 @@ def parse_board_response(board: Board, payload: dict) -> list[JobPosting]:
 
 def fetch_board(board: Board) -> list[JobPosting]:
     return parse_board_response(board, fetch_json(API_URL.format(slug=board.slug)))
+
+
+def description_from_detail(payload: dict) -> str:
+    """Greenhouse returns the description as entity-escaped HTML in "content"."""
+    raw_html = html.unescape(payload.get("content") or "")
+    return re.sub(r"\s+", " ", HTML_TAG.sub(" ", raw_html)).strip()[:MAX_DESCRIPTION_CHARACTERS]
+
+
+def fetch_description(job_key_text: str) -> str:
+    """Input: a key like "greenhouse:acme:123". Output: that job's plain-text description.
+
+    The board listing omits descriptions, so the poller calls this only for
+    brand-new internship postings (a handful per run), not for every job.
+    """
+    _ats_name, slug, job_id = job_key_text.split(":", 2)
+    return description_from_detail(fetch_json(JOB_DETAIL_URL.format(slug=slug, job_id=job_id)))

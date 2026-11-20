@@ -61,6 +61,28 @@ class ScoringTests(unittest.TestCase):
         self.assertIsNotNone(score("Business Operations Intern").excluded_because)
         self.assertIsNone(score("ML Operations Intern").excluded_because)
 
+    def test_graduate_only_postings_are_dropped(self):
+        phd_only = "Requirements: currently pursuing a PhD in Computer Science or a related field."
+        masters_only = "You are enrolled in a Master's program (M.S.) in CS."
+        open_to_all = "Pursuing a BS, MS, or PhD in Computer Science."
+        undergraduate = "Currently enrolled in an undergraduate program; graduate students also welcome."
+        self.assertIsNotNone(score("ML Intern", description=phd_only).excluded_because)
+        self.assertIsNotNone(score("ML Intern", description=masters_only).excluded_because)
+        self.assertIsNone(score("ML Intern", description=open_to_all).excluded_because)
+        self.assertIsNone(score("ML Intern", description=undergraduate).excluded_because)
+        self.assertIsNone(score("ML Intern", description="Build models with PyTorch.").excluded_because)
+        self.assertIsNone(score("ML Intern", description=phd_only, degrees=["Bachelor's"]).excluded_because)
+        self.assertIsNotNone(score("Graduate Machine Learning Intern").excluded_because)
+        self.assertIsNone(score("Undergraduate Machine Learning Intern").excluded_because)
+
+    def test_scientist_titles_need_an_undergraduate_signal(self):
+        self.assertIsNotNone(score("Research Scientist Intern - Robotics").excluded_because)
+        self.assertIsNotNone(score("Applied Scientist Intern").excluded_because)
+        self.assertIsNone(score("Research Scientist Intern", degrees=["Bachelor's", "PhD"]).excluded_because)
+        self.assertIsNone(score("Research Scientist Intern", description="Open to undergraduates.").excluded_because)
+        self.assertIsNone(score("Research Engineer Intern").excluded_because)
+        self.assertIsNone(score("Data Scientist Intern", description="BS or MS students").excluded_because)
+
     def test_description_and_location_bonuses(self):
         plain = score("AI Intern").score
         with_description = score("AI Intern", description="We train PyTorch policies with reinforcement learning").score

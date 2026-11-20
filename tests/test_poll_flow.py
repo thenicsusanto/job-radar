@@ -33,6 +33,7 @@ class PollFlowTests(unittest.TestCase):
         with mock.patch.object(cli, "collect_postings", return_value=(postings, list(responding_board_keys), pending)), \
              mock.patch.object(cli.emailer, "send_email", side_effect=fake_send), \
              mock.patch.object(cli, "load_boards", return_value=[]), \
+             mock.patch.object(cli, "fill_missing_descriptions"), \
              mock.patch.object(cli.discovery, "load_directory", return_value={}):
             return cli.run_poll(self.state_path, dry_run=False)
 

@@ -37,8 +37,8 @@ points = 55
 title_patterns = [
   "ai", "a\\.i\\.", "ml", "mle", "ai/ml", "ml/ai", "machine learning", "deep learning",
   "artificial intelligence", "llms?", "nlp", "natural language", "computer vision", "vision",
-  "generative", "gen ?ai", "agents?", "agentic", "applied scientist", "research engineer(ing)?",
-  "research scientist", "member of technical staff", "mts", "model(s|ing)?", "inference",
+  "generative", "gen ?ai", "agents?", "agentic", "research engineer(ing)?",
+  "member of technical staff", "mts", "model(s|ing)?", "inference",
   "training", "evals?", "evaluation", "foundation models?", "multimodal", "speech",
   "recommendation", "ranking", "search", "interpretability", "alignment", "neural",
 ]
@@ -101,3 +101,9 @@ title_patterns = [
 soft_title_patterns = ["operations", "business", "hardware", "quality", "qa", "test", "it", "security", "strategy", "growth"]
 # Dropped when a tracker lists degree requirements and none of these appear.
 accepted_degrees = ["Bachelor's", "Undergraduate"]
+# Titles that are almost always Master's/PhD roles. Dropped unless the listing
+# or description explicitly says undergraduates / Bachelor's students qualify.
+graduate_leaning_title_patterns = ["research scientist", "applied scientist", "scientist", "researcher", "research associate"]
+# Drop a posting whose description asks for a Master's/PhD and never mentions
+# Bachelor's/undergraduate students.
+drop_graduate_only_descriptions = true

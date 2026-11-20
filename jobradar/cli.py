@@ -22,7 +22,7 @@ from .boards import load_boards, parse_ats_url, save_boards
 from .http_client import NotFound, NotModified
 from .models import Board, JobPosting, ScoredJob
 from .scoring import is_internship, score_job
-from .sources import fetch_board, hackernews, trackers
+from .sources import fetch_board, greenhouse, hackernews, trackers
 
 REPOSITORY_ROOT = Path(__file__).resolve().parent.parent
 PROFILE_PATH = REPOSITORY_ROOT / "config" / "profile.toml"
@@ -32,6 +32,7 @@ DIRECTORY_PATH = REPOSITORY_ROOT / "data" / "company_directory.json"
 DEFAULT_STATE_PATH = REPOSITORY_ROOT / "state" / "state.json"
 BOARD_POLL_WORKERS = 24
 BASELINE_EMAIL_JOB_COUNT = 25
+MAX_DESCRIPTION_LOOKUPS_PER_RUN = 300
 
 
 def load_profile() -> dict:
@@ -108,6 +109,25 @@ def select_new_internships(postings: list[JobPosting], profile: dict, state: dic
     return new_internships
 
 
+def fill_missing_descriptions(new_internships: list[JobPosting]) -> None:
+    """Greenhouse listings carry no description, and the degree-level check needs
+    one. Fetch it for new Greenhouse internships only (including tracker listings
+    that link to a Greenhouse job). Failures leave the description empty."""
+    needing_description = [
+        posting for posting in new_internships
+        if posting.key.startswith("greenhouse:") and not posting.description
+    ][:MAX_DESCRIPTION_LOOKUPS_PER_RUN]
+
+    def fetch_one(posting: JobPosting) -> None:
+        try:
+            posting.description = greenhouse.fetch_description(posting.key)
+        except (NotFound, OSError, ValueError, KeyError, TypeError):
+            pass
+
+    with ThreadPoolExecutor(max_workers=BOARD_POLL_WORKERS) as executor:
+        list(executor.map(fetch_one, needing_description))
+
+
 def run_poll(state_path: Path, dry_run: bool) -> int:
     profile = load_profile()
     boards = load_boards(BOARDS_PATH)
@@ -118,6 +138,7 @@ def run_poll(state_path: Path, dry_run: bool) -> int:
 
     postings, responding_board_keys, pending_updates = collect_postings(profile, boards, state)
     new_internships = select_new_internships(postings, profile, state, now)
+    fill_missing_descriptions(new_internships)
     scored_jobs = [score_job(posting, profile, company_directory, date.today()) for posting in new_internships]
     matches = sorted(
         (scored for scored in scored_jobs if not scored.excluded_because and scored.score >= alert_rules["digest_threshold"]),

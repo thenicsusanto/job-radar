@@ -44,7 +44,7 @@ class ScoredJob:
 
     def to_dict(self) -> dict:
         return {
-            "job": asdict(self.job),
+            "job": {**asdict(self.job), "description": ""},  # keep state/state.json small
             "score": self.score,
             "reasons": self.reasons,
             "excluded_because": self.excluded_because,

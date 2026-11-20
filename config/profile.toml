@@ -33,7 +33,7 @@ title_patterns = [
 
 [[role_groups]]
 name = "AI / ML"
-points = 55
+points = 65
 title_patterns = [
   "ai", "a\\.i\\.", "ml", "mle", "ai/ml", "ml/ai", "machine learning", "deep learning",
   "artificial intelligence", "llms?", "nlp", "natural language", "computer vision", "vision",
@@ -50,12 +50,12 @@ title_patterns = ["simulation", "controls?", "planning", "gnc", "guidance", "avi
 
 [[role_groups]]
 name = "data science"
-points = 30
+points = 45
 title_patterns = ["data scien(ce|tist)", "applied science", "quant(itative)? research(er)?"]
 
 [[role_groups]]
 name = "software engineering"
-points = 15
+points = 65
 title_patterns = [
   "software", "swe", "sde", "backend", "back[- ]end", "full[- ]?stack", "engineer(ing)?",
   "developer", "forward deployed", "fde", "infrastructure", "platform", "systems?",

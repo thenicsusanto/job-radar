@@ -1,43 +1,70 @@
 {
  "board_failure_counts": {
-  "ashby:atomicsemi": 4,
-  "ashby:beaconsoftware": 4,
-  "ashby:chainlink-labs": 4,
-  "ashby:egra": 4,
-  "ashby:firetiger": 4,
-  "ashby:inspiration-commerce-group": 4,
-  "ashby:latitude": 4,
-  "ashby:lindy": 4,
-  "ashby:mach": 4,
-  "ashby:maximor": 4,
-  "ashby:mtesting.ai": 4,
-  "ashby:odin-dynamics": 4,
-  "ashby:veeda-labs": 4,
-  "ashby:whatnot": 4,
-  "greenhouse:appliedintuition": 4,
-  "greenhouse:arine": 4,
-  "greenhouse:breezeairways": 4,
-  "greenhouse:dustyrobotics": 4,
-  "greenhouse:fireworksai": 4,
-  "greenhouse:glossgenius": 4,
-  "greenhouse:iherb": 4,
-  "greenhouse:maintainx": 4,
-  "greenhouse:memphismeats": 4,
-  "greenhouse:mqreferrals": 4,
-  "greenhouse:postman": 4,
-  "greenhouse:pretiuminternships2027": 4,
-  "greenhouse:rdccareers": 4,
-  "greenhouse:superbet": 4,
-  "greenhouse:visiersolutionsinc": 4,
-  "lever:aofl": 4,
-  "lever:calstart": 4,
-  "lever:cirrus": 4,
-  "lever:quantinuum": 4,
-  "lever:saronic": 4
+  "ashby:atomicsemi": 5,
+  "ashby:beaconsoftware": 5,
+  "ashby:chainlink-labs": 5,
+  "ashby:egra": 5,
+  "ashby:firetiger": 5,
+  "ashby:inspiration-commerce-group": 5,
+  "ashby:latitude": 5,
+  "ashby:lindy": 5,
+  "ashby:mach": 5,
+  "ashby:maximor": 5,
+  "ashby:mtesting.ai": 5,
+  "ashby:odin-dynamics": 5,
+  "ashby:veeda-labs": 5,
+  "ashby:whatnot": 5,
+  "greenhouse:appliedintuition": 5,
+  "greenhouse:arine": 5,
+  "greenhouse:breezeairways": 5,
+  "greenhouse:dustyrobotics": 5,
+  "greenhouse:fireworksai": 5,
+  "greenhouse:glossgenius": 5,
+  "greenhouse:iherb": 5,
+  "greenhouse:maintainx": 5,
+  "greenhouse:memphismeats": 5,
+  "greenhouse:mqreferrals": 5,
+  "greenhouse:postman": 5,
+  "greenhouse:pretiuminternships2027": 5,
+  "greenhouse:rdccareers": 5,
+  "greenhouse:superbet": 5,
+  "greenhouse:visiersolutionsinc": 5,
+  "lever:aofl": 5,
+  "lever:calstart": 5,
+  "lever:cirrus": 5,
+  "lever:quantinuum": 5,
+  "lever:saronic": 5
  },
  "bootstrapped_at": 1795210901,
- "digest_queue": [],
+ "digest_queue": [
+  {
+   "excluded_because": null,
+   "job": {
+    "board_key": null,
+    "company_name": "Advance Auto Parts",
+    "degrees": [],
+    "description": "",
+    "employment_type": "",
+    "key": "vanshb03:0ce3f152-436a-4475-9d9f-80b776d65eb0",
+    "locations": [
+     "Raleigh, NC"
+    ],
+    "posted_at": 1795219200.0,
+    "source": "vanshb03",
+    "terms": [
+     "Summer"
+    ],
+    "title": "Data Science Intern",
+    "url": "https://go.vansh.nyc/1Gi"
+   },
+   "reasons": [
+    "data science role (+45)"
+   ],
+   "score": 45
+  }
+ ],
  "hackernews_examined_ids": [
+  50593679,
   50545238,
   50534429,
   50489589,
@@ -67,8 +94,7 @@
   49911531,
   49834893,
   49814780,
-  49768220,
-  49753131
+  49768220
  ],
  "known_board_keys": [
   "ashby:1password",
@@ -1388,6 +1414,7 @@
   "addepar|analyst intern navigator product": 1795210901,
   "addepar|analyst intern product": 1795210901,
   "adobe|intern research scientist": 1795210901,
+  "advanceautoparts|data intern science": 1795299681,
   "advancedspace|2026 2027 and capture co growth intern op technical": 1795210901,
   "aerovironment|engineer intern software": 1795210901,
   "aerovironment|engineering intern software": 1795210901,
@@ -2487,6 +2514,7 @@
   "fab2|engineering intern packaging winter": 1795210901,
   "fab2|engineering intern process summer": 1795210901,
   "fab2|engineering intern process winter": 1795210901,
+  "fabri|cybersecurity devops intern it": 1795299681,
   "facultyai|attachment civilian defence uk veterans work": 1795210901,
   "faire|2027 ai applied intern ml scientist winter": 1795210901,
   "fairlife|2027 engineering intern project summer": 1795210901,
@@ -5028,6 +5056,7 @@
   "workshop|2027 engineer intern software summer": 1795210901,
   "workstream|engineer full intern stack": 1795210901,
   "worldengineai|data intern real research robotics sim to": 1795210901,
+  "worthingtonenterprises|ai intern": 1795299681,
   "wppmedia|2027 internship media programme wpp": 1795210901,
   "wppmedia|activation digital intern italy planning": 1795210901,
   "wppmedia|activation intern italy search social": 1795210901,
@@ -8581,6 +8610,7 @@
   "vanshb03:0bcc2910-0467-4881-8e43-389a9d1edaef": 1795210901,
   "vanshb03:0bf6e192-bd4b-4d84-b937-aa5b5d634f4c": 1795210901,
   "vanshb03:0c4a0afa-5ec8-411e-aaca-ed19a844c342": 1795210901,
+  "vanshb03:0ce3f152-436a-4475-9d9f-80b776d65eb0": 1795299681,
   "vanshb03:0e7ebf2a-e998-4cfe-8473-6bd58290a04d": 1795210901,
   "vanshb03:0fe0d6bf-476e-4a79-a0cd-c863cd1bec88": 1795210901,
   "vanshb03:1026c810-c164-4212-b162-cc4482482cc9": 1795210901,
@@ -8663,6 +8693,7 @@
   "vanshb03:48f3dea5-a733-415b-a5f6-2a341028bf56": 1795210901,
   "vanshb03:48fcdaa0-4a0e-43ea-b269-825d56d1123a": 1795210901,
   "vanshb03:4a46cd93-2828-4d43-a132-195d96e38ec2": 1795216762,
+  "vanshb03:4a73ca56-3032-4c7b-99f3-022d2be17002": 1795299681,
   "vanshb03:4a85bc7c-4c91-49e2-abab-8eda35362286": 1795282625,
   "vanshb03:4b17583f-8d1d-4453-9b0c-dd617e8d0a30": 1795210901,
   "vanshb03:4b6d6654-23d0-401b-a053-779693b07316": 1795210901,
@@ -8887,6 +8918,7 @@
   "vanshb03:f8551ec2-490d-4347-86af-5874da0771df": 1795210901,
   "vanshb03:f86ae6f7-c841-437e-8704-f5f4a57a3dc0": 1795210901,
   "vanshb03:fa62c7fc-9fd8-4fa8-aac0-57eb1274e6b5": 1795210901,
+  "vanshb03:fadad925-c66c-40aa-831f-1d5f69e7849b": 1795299681,
   "vanshb03:fb45af46-5f92-486c-898a-99f8ce300988": 1795210901,
   "vanshb03:fd2c835c-ef10-4397-b2f8-4a407c24e77f": 1795210901,
   "vanshb03:fd6fadaf-50aa-430c-ba6c-1a00ec3b4cb2": 1795210901,
@@ -8895,8 +8927,8 @@
   "vanshb03:fe88cef0-23c1-4d51-aa26-75750cb11957": 1795216762
  },
  "tracker_etags": {
-  "simplify": "\"84a2d684a8b0600b3cee0355e9ca8e74550e85a175d4b28fb8655746d33bda3f\"",
-  "vanshb03": "\"2f40a94440cf16402d548f173ee5adb1a3373e31510e79ec5dac65d345330928\""
+  "simplify": "\"a2a65479349b7529bdca5cd8ce37d0141ce09630df421a8681571a59c9d8b079\"",
+  "vanshb03": "\"bbcffc16a3727324f1a94f69ba565c80935aab7cbf0b8aef6cda3a2db5e65b73\""
  },
  "version": 1
 }

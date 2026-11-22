@@ -37,33 +37,7 @@
   "lever:saronic": 8
  },
  "bootstrapped_at": 1795210901,
- "digest_queue": [
-  {
-   "excluded_because": null,
-   "job": {
-    "board_key": null,
-    "company_name": "Advance Auto Parts",
-    "degrees": [],
-    "description": "",
-    "employment_type": "",
-    "key": "vanshb03:0ce3f152-436a-4475-9d9f-80b776d65eb0",
-    "locations": [
-     "Raleigh, NC"
-    ],
-    "posted_at": 1795219200.0,
-    "source": "vanshb03",
-    "terms": [
-     "Summer"
-    ],
-    "title": "Data Science Intern",
-    "url": "https://go.vansh.nyc/1Gi"
-   },
-   "reasons": [
-    "data science role (+45)"
-   ],
-   "score": 45
-  }
- ],
+ "digest_queue": [],
  "hackernews_examined_ids": [
   50593679,
   50545238,

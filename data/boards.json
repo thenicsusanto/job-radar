@@ -36,6 +36,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "ashby",
+  "slug": "9-mothers",
+  "company_name": "9 Mothers",
+  "discovered_via": "probe"
+ },
+ {
   "ats": "greenhouse",
   "slug": "athinkingape",
   "company_name": "A Thinking Ape",
@@ -528,6 +534,18 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "greenhouse",
+  "slug": "artefactlinkedin",
+  "company_name": "Artefact",
+  "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "artefactnoram",
+  "company_name": "Artefact",
+  "discovered_via": "tracker:simplify"
+ },
+ {
   "ats": "lever",
   "slug": "artera",
   "company_name": "ArteraAI",
@@ -873,6 +891,12 @@
   "ats": "ashby",
   "slug": "binance.us",
   "company_name": "Binance",
+  "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "biohub",
+  "company_name": "Biohub",
   "discovered_via": "tracker:simplify"
  },
  {
@@ -2154,6 +2178,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "lever",
+  "slug": "epwealth",
+  "company_name": "EP Wealth Advisors",
+  "discovered_via": "tracker:simplify"
+ },
+ {
   "ats": "ashby",
   "slug": "epianeuro",
   "company_name": "Epia Neuro",
@@ -2421,6 +2451,12 @@
   "ats": "greenhouse",
   "slug": "fireworksai",
   "company_name": "Fireworks AI",
+  "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "ashby",
+  "slug": "first-resonance",
+  "company_name": "First Resonance",
   "discovered_via": "tracker:simplify"
  },
  {
@@ -2955,6 +2991,12 @@
   "ats": "ashby",
   "slug": "Gumloop",
   "company_name": "Gumloop",
+  "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "gusto",
+  "company_name": "Gusto",
   "discovered_via": "tracker:simplify"
  },
  {
@@ -4248,6 +4290,12 @@
   "discovered_via": "tracker:simplify"
  },
  {
+  "ats": "greenhouse",
+  "slug": "method",
+  "company_name": "Method",
+  "discovered_via": "tracker:simplify"
+ },
+ {
   "ats": "ashby",
   "slug": "meticulous",
   "company_name": "Meticulous",
@@ -4311,6 +4359,12 @@
   "ats": "ashby",
   "slug": "modal",
   "company_name": "Modal",
+  "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "lever",
+  "slug": "momsmeals",
+  "company_name": "Mom's Meals",
   "discovered_via": "tracker:simplify"
  },
  {
@@ -4443,6 +4497,12 @@
   "ats": "ashby",
   "slug": "neocognition",
   "company_name": "NeoCognition",
+  "discovered_via": "tracker:simplify"
+ },
+ {
+  "ats": "greenhouse",
+  "slug": "nerostechnologies",
+  "company_name": "Neros Technologies",
   "discovered_via": "tracker:simplify"
  },
  {

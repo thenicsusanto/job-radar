@@ -59,6 +59,12 @@
   "is_startup": true,
   "note": "YC Summer 2026"
  },
+ "9mothers": {
+  "name": "9 Mothers",
+  "is_ai": true,
+  "is_startup": true,
+  "note": "YC Spring 2026"
+ },
  "a0dev": {
   "name": "a0.dev",
   "is_ai": true,
@@ -3221,8 +3227,8 @@
   "is_startup": true,
   "note": "YC Fall 2024"
  },
- "digibuild": {
-  "name": "DigiBuild",
+ "digibuildresilience": {
+  "name": "DigiBuild Resilience",
   "is_ai": true,
   "is_startup": true,
   "note": "YC Summer 2021"
@@ -4582,12 +4588,6 @@
   "is_ai": true,
   "is_startup": true,
   "note": "YC Spring 2025"
- },
- "godhands": {
-  "name": "GodHands",
-  "is_ai": true,
-  "is_startup": true,
-  "note": "YC Fall 2026"
  },
  "gojom": {
   "name": "GoJom",
@@ -7193,6 +7193,12 @@
   "is_startup": true,
   "note": "YC Spring 2025"
  },
+ "nessie": {
+  "name": "Nessie",
+  "is_ai": true,
+  "is_startup": true,
+  "note": "YC Fall 2025"
+ },
  "netomi": {
   "name": "Netomi",
   "is_ai": true,
@@ -7729,6 +7735,12 @@
  },
  "operon": {
   "name": "Operon",
+  "is_ai": true,
+  "is_startup": true,
+  "note": "YC Winter 2027"
+ },
+ "opsis": {
+  "name": "Opsis",
   "is_ai": true,
   "is_startup": true,
   "note": "YC Winter 2027"
@@ -8518,12 +8530,6 @@
   "is_ai": true,
   "is_startup": true,
   "note": "YC Winter 2022"
- },
- "polished": {
-  "name": "Polished",
-  "is_ai": true,
-  "is_startup": true,
-  "note": "YC Winter 2024"
  },
  "poly": {
   "name": "Poly",
@@ -9653,8 +9659,8 @@
   "is_startup": true,
   "note": "YC Summer 2024"
  },
- "runtimesi": {
-  "name": "Runtime.si",
+ "runtime": {
+  "name": "Runtime",
   "is_ai": true,
   "is_startup": true,
   "note": "YC Fall 2026"
@@ -10606,6 +10612,12 @@
   "is_ai": true,
   "is_startup": true,
   "note": "YC Summer 2026"
+ },
+ "standardphysics": {
+  "name": "Standard Physics",
+  "is_ai": true,
+  "is_startup": true,
+  "note": "YC Winter 2026"
  },
  "star": {
   "name": "Star",

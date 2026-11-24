@@ -40,58 +40,7 @@
   "lever:twodots": 2
  },
  "bootstrapped_at": 1795210901,
- "digest_queue": [
-  {
-   "excluded_because": null,
-   "job": {
-    "board_key": null,
-    "company_name": "Draper",
-    "degrees": [],
-    "description": "",
-    "employment_type": "",
-    "key": "vanshb03:57325c0f-bfab-4bdc-b1ea-1fa3207f3e25",
-    "locations": [
-     "Cambridge, MA"
-    ],
-    "posted_at": 1795536898.0,
-    "source": "vanshb03",
-    "terms": [
-     "Summer"
-    ],
-    "title": "HWIL & Real Time Simulation Intern",
-    "url": "https://go.vansh.nyc/1Ib"
-   },
-   "reasons": [
-    "simulation / controls / planning role (+35)"
-   ],
-   "score": 35
-  },
-  {
-   "excluded_because": null,
-   "job": {
-    "board_key": null,
-    "company_name": "Aptima Inc. (All Jobs)",
-    "degrees": [],
-    "description": "",
-    "employment_type": "",
-    "key": "vanshb03:b49b92d8-c5d8-4ea6-b68a-eb508f0a4e9a",
-    "locations": [
-     "Fairborn, OH"
-    ],
-    "posted_at": 1795478400.0,
-    "source": "vanshb03",
-    "terms": [
-     "Summer"
-    ],
-    "title": "Software Engineer Intern",
-    "url": "https://go.vansh.nyc/1Is"
-   },
-   "reasons": [
-    "software engineering role (+65)"
-   ],
-   "score": 65
-  }
- ],
+ "digest_queue": [],
  "hackernews_examined_ids": [
   50631041,
   50615161,

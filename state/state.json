@@ -41,33 +41,7 @@
   "lever:twodots": 11
  },
  "bootstrapped_at": 1795210901,
- "digest_queue": [
-  {
-   "excluded_because": null,
-   "job": {
-    "board_key": null,
-    "company_name": "The Toro Company",
-    "degrees": [],
-    "description": "",
-    "employment_type": "",
-    "key": "vanshb03:feec9d03-a5ea-49e9-b2f0-6739e862ec65",
-    "locations": [
-     "Bloomington, MN"
-    ],
-    "posted_at": 1795527403.0,
-    "source": "vanshb03",
-    "terms": [
-     "Summer"
-    ],
-    "title": "Data Science Intern",
-    "url": "https://go.vansh.nyc/1L5"
-   },
-   "reasons": [
-    "data science role (+45)"
-   ],
-   "score": 45
-  }
- ],
+ "digest_queue": [],
  "hackernews_examined_ids": [
   50654353,
   50641323,

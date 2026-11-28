@@ -2,7 +2,7 @@
  "board_failure_counts": {
   "ashby:atomicsemi": 12,
   "ashby:beaconsoftware": 12,
-  "ashby:brightstar-ai": 3,
+  "ashby:brightstar-ai": 4,
   "ashby:chainlink-labs": 12,
   "ashby:egra": 12,
   "ashby:firetiger": 12,
@@ -16,7 +16,7 @@
   "ashby:veeda-labs": 12,
   "ashby:verne robotics": 12,
   "ashby:whatnot": 12,
-  "greenhouse:aperaaiinc": 6,
+  "greenhouse:aperaaiinc": 7,
   "greenhouse:appliedintuition": 12,
   "greenhouse:arine": 12,
   "greenhouse:breezeairways": 12,
@@ -3775,7 +3775,10 @@
   "integrafec|data intern phd scientist summer": 1795210901,
   "integrate|2027 engineering intern software summer": 1795210901,
   "integrationinnovationi3|embedded engineer intern reverse systems": 1795210901,
+  "intel|design engineer intern verification": 1795871970,
   "intel|design intern verification": 1795552887,
+  "intel|device intern modeling phd semiconductor": 1795871970,
+  "intel|engineer integrity intern signal": 1795871970,
   "intercept|analytics co intelligence op": 1795839693,
   "intercept|co engineer op solutions": 1795839693,
   "intercept|co op product": 1795839693,
@@ -9697,6 +9700,7 @@
   "simplify:6692aa48-6232-4d3f-ad18-2ac58fac07c0": 1795210901,
   "simplify:66d868a1-ada3-4053-93c1-ef721ae97298": 1795210901,
   "simplify:6780a37d-3252-4e9e-8485-dbad810e2628": 1795217647,
+  "simplify:67871974-bf66-4af8-bea9-b49556179f85": 1795871970,
   "simplify:6833143b-60fe-448d-82ed-097ea19d1645": 1795839693,
   "simplify:68916cbe-97cc-414d-8732-d68540a99d35": 1795210901,
   "simplify:68aba6ff-9ce9-41ef-aa64-76db72db0379": 1795210901,
@@ -9813,6 +9817,7 @@
   "simplify:8e552038-bcd1-40b1-8b6d-37abf98cb3f5": 1795210901,
   "simplify:8e9af166-ff54-453a-b560-244a89a45555": 1795210901,
   "simplify:8f720993-306f-456d-ad39-0c5dc02b8d63": 1795839693,
+  "simplify:8f881809-e645-4be0-9a85-6faeb5945981": 1795871970,
   "simplify:8f9ede0f-ede0-4049-a56f-6c782a042260": 1795228934,
   "simplify:8fc4d076-9ba1-4609-ad0f-a2f843fcda6a": 1795839693,
   "simplify:90213d71-b1f5-4017-a387-21a5200ec72d": 1795210901,
@@ -9952,6 +9957,7 @@
   "simplify:b727a346-069a-4d13-ae2d-571e4a23aaa7": 1795217647,
   "simplify:b80c73b2-8965-4d66-bb3b-ade96bd3a1f3": 1795210901,
   "simplify:b8549479-150a-4767-bd86-93084fdfb960": 1795228934,
+  "simplify:b9c811f8-4781-4e7d-8799-56abce089c75": 1795871970,
   "simplify:b9cf15b7-d82f-4efc-8428-4313aa985f7a": 1795210901,
   "simplify:ba01acfc-f330-48b0-a332-bdd38db24456": 1795210901,
   "simplify:bb9f74a2-6ded-4e81-a5a6-0be1192f3e17": 1795210901,
@@ -10686,8 +10692,8 @@
   "vanshb03:feec9d03-a5ea-49e9-b2f0-6739e862ec65": 1795755142
  },
  "tracker_etags": {
-  "simplify": "\"f2578f7cd576c71d3ae2f194c5ecd3a551b1613388a2db4a6c3e3092fe7a328f\"",
-  "vanshb03": "\"abcbf808db551cfec80cc62ac2f43da2bdcbdd30b2c29059848b9dee1cfbe5f7\""
+  "simplify": "\"7172f843cde02dd3760d5d04e526348d517830d873cbd6cbef38863c20457f9c\"",
+  "vanshb03": "\"1f9ba216a6fc65cb51375fb89fa279a1e7e82fc61b36fdf1485e255cbe8d754d\""
  },
  "version": 1
 }
